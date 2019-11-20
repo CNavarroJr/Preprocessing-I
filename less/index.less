@@ -54,6 +54,66 @@ table {
 }
 
 html, body {
-    height: 100%;
+		height: 100%;
 }
+
+@textcolor: white;
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+
+		header {
+			width: 100%;
+			background-color: navy;
+			height: 100px;
+			display: flex;
+
+			h1 {
+				font-size: 2.0rem;
+				padding: 34px;
+				color: @textcolor;
+				margin-left: 10px;
+			}
+
+				nav {
+					width: 75%;
+					display: flex;
+					justify-content: flex-end;
+					padding: 10px;
+					font-size: 2.0rem;
+				}
+
+					a {
+						text-decoration: none;
+						margin: 20px;
+						color: @textcolor;
+					}
+		}	
+
+		section {
+			width: 100%;
+			display: flex;
+
+			.intro1 {
+				width: 80%;
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+			}
+
+				.intro-img {
+					width: 250px;
+					height: 350px;
+					border-radius: 150px;
+		}
+ 		
+		}
+
+
+
+
+}
+
+	
 
