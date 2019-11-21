@@ -137,12 +137,15 @@ body {
 .container {
   width: 100%;
   margin: 0 auto;
+  height: 1800px;
+  background-color: lightblue;
 }
 .container header {
-  width: 100%;
+  width: 90%;
   background-color: navy;
   height: 100px;
   display: flex;
+  margin: 0 auto;
 }
 .container header h1 {
   font-size: 2rem;
@@ -162,18 +165,109 @@ body {
   margin: 20px;
   color: white;
 }
-.container section {
-  width: 100%;
-  display: flex;
-}
-.container section .intro1 {
+.container .intro {
   width: 80%;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.container section .intro-img {
-  width: 250px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 10px;
   height: 350px;
+}
+.container .intro .intro1 {
+  width: 50%;
+  text-align: center;
+}
+.container .intro .intro-img {
+  width: 60%;
+  height: 300px;
   border-radius: 150px;
+  margin-top: 25px;
+}
+.container .intro h1 {
+  font-size: 3.5rem;
+  margin-top: 80px;
+  padding: 20px;
+}
+.container .intro h2 {
+  font-size: 2rem;
+}
+.container .intro p {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  margin: 20px;
+  padding: 25px;
+}
+.container .skills {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+  height: 350px;
+}
+.container .skills .skills1 {
+  width: 50%;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  margin-left: 95px;
+}
+.container .skills .skills2 {
+  width: 30%;
+}
+.container .skills li {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-left: 210px;
+}
+.container .skills h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.container .work-history {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+  height: 350px;
+}
+.container .work-history #work-table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.container .work-history tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.container .work-history th {
+  padding: 12px;
+  border: 1px solid #ddd;
+  margin: 10px;
+}
+.container .work-history td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+.container .work-history h2 {
+  font-size: 2rem;
+  padding: 20px;
+}
+.container .contact {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+  height: 350px;
+}
+.container .contact h2 {
+  font-size: 2rem;
+  padding: 20px;
 }
